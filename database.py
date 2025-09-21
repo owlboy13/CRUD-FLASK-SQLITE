@@ -1,6 +1,7 @@
 import sqlite3
 import pandas as pd
 
+
 class ProductDBHelper:
     def __init__(self, name_db):
         self._name_db = name_db
