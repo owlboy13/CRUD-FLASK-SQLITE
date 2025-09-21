@@ -1,0 +1,68 @@
+CRUD Flask com SQLite
+Este é um aplicativo web simples desenvolvido em Flask que implementa operações CRUD (Create, Read, Update, Delete) para gerenciamento de produtos utilizando SQLite como banco de dados.
+
+Funcionalidades
+✅ Criar novos produtos
+
+✅ Visualizar lista de produtos
+
+✅ Editar produtos existentes
+
+✅ Excluir produtos
+
+✅ Interface moderna com tema neon
+
+✅ Validação de formulários no frontend e backend
+
+✅ Design responsivo
+
+Tecnologias Utilizadas
+Backend: Python com Flask
+
+Frontend: HTML5, CSS3, JavaScript
+
+Banco de Dados: SQLite
+
+Estilo: CSS personalizado com tema neon
+
+Pré-requisitos
+Python 3.7 ou superior
+
+Pip (gerenciador de pacotes do Python)
+
+Instalação e Execução
+Clone o repositório:
+
+bash
+git clone https://github.com/owlboy13/CRUD-FLASK-SQLITE.git
+cd CRUD-FLASK-SQLITE
+Crie um ambiente virtual (opcional mas recomendado):
+
+bash
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# ou
+venv\Scripts\activate  # Windows
+Instale as dependências:
+
+bash
+pip install -r requirements.txt
+Execute a aplicação:
+
+bash
+python app.py
+Acesse no navegador:
+
+text
+http://localhost:5000
+Estrutura do Projeto
+text
+CRUD-FLASK-SQLITE/
+│
+├── app.py                 # Aplicação principal Flask
+├── database.db           # Banco de dados SQLite (gerado automaticamente)
+├── requirements.txt      # Dependências do projeto
+├── static/              # Arquivos estáticos (CSS, JS, imagens)
+└── templates/           # Templates HTML
+    ├── index.html       # Página principal com lista de produtos
+    └── new_product.html # Formulário de adição/edição de produtos
