@@ -61,7 +61,10 @@ CRUD-FLASK-SQLITE/
 │
 ├── app.py                 # Aplicação principal Flask
 ├── database.db           # Banco de dados SQLite (gerado automaticamente)
-├── requirements.txt      # Dependências do projeto            # Arquivos estáticos (CSS, JS, imagens)
+├── requirements.txt    # Dependências do projeto            # Arquivos estáticos (CSS, JS, imagens)
+└── static/
+    |__style.CSS
+    |__style_index.css      # Dependências do projeto            # Arquivos estáticos (CSS, JS, imagens)
 └── templates/           # Templates HTML
     ├── index.html       # Página principal com lista de produtos
     └── new_product.html # Formulário de adição/edição de produtos
